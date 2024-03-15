@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 read -p "Enter a string:" str
-echo $stro-temp
+echo $str>temp
 rvs="$(rev temp)"
 if  [ $str == $rvs]
 then
